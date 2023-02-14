@@ -1,0 +1,58 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  /* max-width: 1000px; */
+}
+
+.card-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.card-item {
+  display: flex;
+  gap: 1rem;
+  background-color: #e4e4ef;
+}
+
+span {
+  display: block;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-content {
+  background-color: #e4e4ef;
+  display: flex;
+  gap: 1rem;
+  border-radius: 5px;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.35rem 1rem;
+}
+
+.status {
+  background-color: #deecdd;
+  padding: 0.35rem 2rem;
+  border-radius: 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
